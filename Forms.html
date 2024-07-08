@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Forms are ued to collect data from the user -->
+    <!-- Action attribute is used to define what actions 
+    needs to be performed when a form is submitted or where the data should be sent -->
+
+    <form action="/action">
+        <div>
+            <label for="username">
+                username:
+                <input type="text" id="username" placeholder="Enter username">   
+            </label>
+        </div>
+       
+        <div>
+            <label for="password">
+                password:
+                <input type="password" id="password" placeholder="Enter password"> 
+            </label>
+        </div>
+        
+
+        <div>
+            <label for="number">
+                number :
+                <input type="number" id="number"   placeholder="Enter number "> 
+            </label>
+        </div>
+        
+        <div>
+            <label for="time">
+                time :
+                <input type="time" id="time">
+                <br>
+            </label>    
+        </div>
+
+        
+
+       <!-- for more input type read input type mdn -->
+       <!-- Lables are elements represent a caption for an item in a user interface  -->
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Simple button</button>
+
+   
+    </form>
+
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Search on youtube" name="search_query">
+        <button type="submit">search</button>
+</form>
+
+</body>
+</html>

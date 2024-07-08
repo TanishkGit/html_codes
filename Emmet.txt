@@ -1,0 +1,12 @@
+Emmet is a popular plugin for text editors that greatly improves HTML and CSS workflow.
+ It allows you to quickly write code by providing shortcuts, called "abbreviations," which expand into full-fledged code snippets.
+ Emmet is particularly useful for web developers because it saves time and reduces the amount of repetitive
+  typing required when writing HTML and CSS.
+  visit emmet.io 
+
+
+  > child class (ex: div>p)
+
+  + sibling class (ex: div+p+br)
+
+  * multiplication (ex: ul>li*5)
